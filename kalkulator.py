@@ -1,5 +1,5 @@
 import tkinter as tk
-
+#ini adalah baris komentar 
 class Calculator(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -61,3 +61,4 @@ class Calculator(tk.Tk):
 if __name__ == "__main__":
     app = Calculator()
     app.mainloop()
+
